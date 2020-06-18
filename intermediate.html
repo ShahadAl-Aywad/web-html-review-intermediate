@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: maroon;
+   color: white;
+   text-align: center;
+}
+
+    #buttons {
+
+    float: right;
+    }
+
+    * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+  align-items: center;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  float: center;
+}
+
+#intro {background-color: maroon;
+        color: white;
+        text-align: center;}
+
+
+#p1 {text-align: center;}
+    </style>
+
+  <title>Website review</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">EuphorieDesArtistes</a>
+    </div>
+        <div id= "buttons">
+    <ul class="nav navbar-nav">
+      <li><a href="page1.html">Page 1</a></li>
+      <li><a href="page2.html">Page 2</a></li>
+      <li><a href="page3.html">Page 3</a></li>
+      <li><a href="page4.html">Page 4</a></li>
+        </div>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  <h3>Historical Artists</h3>
+
+    <div id="intro">
+  <p><strong>This website offers a selection of famous reknowned artists and their works.</strong></p>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+
+
+  <div class="row">
+    <div class="column">
+      <a href="page1.html"><img src="StarryNight2.png" alt="StarryNight" style="width:95%" ></a>
+    </div>
+    <div class="column">
+      <a href="page2.html"> <img src="MonaLisa2.png" alt="MonaLisa" style="width:95%"></a>
+    </div>
+    <div class="column">
+     <a href="page3.html"> <img src="JohannesVermeer.png" alt="FridaKahlo" style="width:95%"></a>
+    </div>
+    <div class="column">
+       <a href="page2.html"> <img src="LadyWithAnErmine.png" alt="FridaKahlo" style="width:95%"></a>
+      </div>
+    <div class="column">
+       <a href="page4.html"> <img src="Virgin.png" alt="FridaKahlo" style="width:95%"></a>
+      </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+  <div id="p1">
+  <p><b>Art is a form of rare self-expresion possessed by a few talented individuals. <br> 
+To be able to produce such moving, yet fragile art requires skill, patience, and passion. <br>
+For this reason, the names and works of profound artists is carried on through history.</b></p>
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="footer">
+    <br>
+    <p>Intermediate Challenge</p>
+  </div>
+
+</body>
+</html>
